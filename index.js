@@ -943,12 +943,12 @@ let header = 'Drop -> ';
 	// Feed Weapon
 	else if(	event.item === 98677	 )
 	{
-		sendMessage(header+'(<font color="#fff317">Golder Feed Weapon</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Golden Feed Weapon</font>)', cchat)
 	}
 	// Feed Armor
 	else if(	event.item === 98678	)
 	{
-		sendMessage(header+'(<font color="#fff317">Golder Feed Armor</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Golden Feed Armor</font>)', cchat)
 	}
 		// Azart Force Sign
 	else if(	event.item === 209123	)
