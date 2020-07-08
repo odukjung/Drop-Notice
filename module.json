@@ -1,5 +1,10 @@
 {
-	"disableAutoUpdate": false,
-	"servers": ["https://raw.githubusercontent.com/Snugglez/Drop-Notice/master/"],
-	"supportUrl": ""
+    "disableAutoUpdate": false,
+    "name": "LogDrop-Notice",
+    "author": "teralove, odukjung",
+    "description": "Log itemdrop",
+    "options": {
+        "niceName": "LogDrop-Notice"
+    },
+    "servers": [""],
 }
