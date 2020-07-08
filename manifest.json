@@ -1,14 +1,1 @@
-{
-	"defs": {
-		"S_SPAWN_DROPITEM": 6
-	},
-	"files": {
-		"README.md": "37e2bee4da6d629a8537e8c6accfdd43d60b65129798b01a1fd4af4ee1741afc",
-		"config.json": {
-			"overwrite": false,
-			"hash": "f69597ee6683b54601c39594e93aa5f36cfe01999f3366d8de73f1b529830b9c"
-		},
-		"index.js": "ee4dd6514513290e0b97c0342ef0f14f5c6c6154a703beca847482b4e30ce891",
-		"module.json": "6a87c70e6c896afe417a1d8bdce8c8a4231101528f7f193ecdd839506231f684"
-	}
-}
+{"files": {}}
