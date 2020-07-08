@@ -1,7 +1,7 @@
 # LogDrop-Notice
 Notice marker when item drop.
-Notice to self => Whisper channle
-Notice to Party => Notice channle
+- Notice to self => Whisper channle
+- Notice to Party => Notice channle
 
 # Commands 
 - **logdrop|ld** - turn off/on
