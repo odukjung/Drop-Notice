@@ -1,12 +1,33 @@
-# Drop-Notice
-Sends a message in [Proxy] chat when ever a specific item drops
+# LogDrop-Notice
+Notice marker when item drop.
+Notice to self => Whisper channle
+Notice to Party => Notice channle
 
-Originally designed to see if anything worth dropped from world bams, but could be used in other places like ghillie so you won't get baited by that otherworldly shard drop :^)
+# Commands 
+- **logdrop|ld** - turn off/on
+- **logdrop|ld pt** - turn off/on Notice Party
+- **logdrop|ld info** - check info
 
-`!dropnotice` or just `dropnotice` if used on /8 or /proxy chat channel to toggle it on or off
-
-Currently supported items are [Diamond, Pansophic Ash, Elemental Essence, Superior Etching box, Otherworldly Shard, Stormcry Equipment Chest, Frostmetal Equipment Chest]
-
-p.s.... requires command module, shouldn't need to link that should I?
-
-
+| Item Marker |
+| ------------------------ |
+| 1 - All Superior Exodor Gear Option 0-3 |
+| 2 - All Trash Superior Exodor Gear Option 0-3 |
+| 3 - Annihilation Brooch Option 0-3 |
+| 4 - Dark Light Brooch Option 0-3 |
+| 5 - Box Brooch (Notice - Center) |
+| 6 - Box Mask (Notice - Center) |
+| 7 - Box Belt (Notice - Center) |
+| 8 - Box Zenobia (Notice - Center) |
+| 9 - Box Gear&Mats (Notice - Center) |
+| 10 - Map (Notice - Center) |
+| 11 - Map SoH (Notice - Center) |
+| 12 - Hidden Wooden Crate (Notice - Center) |
+| 13 - Hidden Silver Crate (Notice - Center) |
+| 14 - Hidden Gold Crate (Notice - Center) |
+| 15 - Half Map |
+| 16 - Feed Weapon |
+| 17 - Feed Armor |
+| 18 - Azart Force Sign (Notice - Center) |
+| 19 - Azart Token (Notice - Center) |
+| 20 - Azart Expedition Badge (Notice - Center) |
+| 21 - Card White & Card Green (Notice - Center) |
