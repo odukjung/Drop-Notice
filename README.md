@@ -31,3 +31,4 @@ Notice marker when item drop.
 | 19 - Azart Token (Notice - Center) |
 | 20 - Azart Expedition Badge (Notice - Center) |
 | 21 - Card White & Card Green (Notice - Center) |
+| 22 - Unique Seashell I (Notice - Center) |
