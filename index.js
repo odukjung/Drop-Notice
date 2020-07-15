@@ -950,19 +950,19 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Golden Feed Armor</font>)', cchat)
 	}
-		// Azart Force Sign
+	// Azart Force Sign
 	else if(	event.item === 209123	)
 	{
 		sendMessage(header+'(<font color="#00ff00">Azart Force Sign</font>)', cchat)
 		notice('(Azart Force Sign)')
 	}
-		// Azart Token
+	// Azart Token
 	else if(	event.item === 209124	)
 	{
 		sendMessage(header+'(<font color="#00ff00">Azart Token</font>)', cchat)
 		notice('(Azart Token)')
 	}
-		// Azart Expedition Badge
+	// Azart Expedition Badge
 	else if(	event.item === 209127	)
 	{
 		sendMessage(header+'(<font color="#00ff00">Azart Expedition Badge</font>)', cchat)
@@ -1029,6 +1029,12 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Card Fragment - Green</font>)', cchat)
 		notice('(Card Fragment - Green)')
+	}
+	// Event Item
+	else if(	event.item === 155003	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unique Seashell I</font>)', cchat)
+		notice('(Unique Seashell I)')
 	}
 	// Test Mode
 	else if(	event.item === 2	|| 	event.item === 1	/*|| 	event.item === 209617*/	)
