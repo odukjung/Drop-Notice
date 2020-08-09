@@ -6,15 +6,15 @@ Notice marker when item drop.
 # Update
 - Add Item list
 
-| Avarice Transformation Vellum Token (Notice - Center) |
-| Transformation Vellum Token (Notice - Center) |
-| Unstable Transformation Vellum Token (Notice - Center) |
-| Upgrade Vellum Token (Notice - Center) |
-| Unstable Option Change Scroll (Green) |
-| Option Change Scroll (Blue) |
-| Option Change Scroll (Gold) (Notice - Center) |
-| Greedhead Option Change Scroll (Gold) (Notice - Center) |
-| Brooch Etching I-IV (Notice - Center only IV) |
+1. Avarice Transformation Vellum Token (Notice - Center)
+2. Transformation Vellum Token (Notice - Center)
+3. Unstable Transformation Vellum Token (Notice - Center)
+4. Upgrade Vellum Token (Notice - Center)
+5. Unstable Option Change Scroll (Green)
+6. Option Change Scroll (Blue)
+7. Option Change Scroll (Gold) (Notice - Center)
+8. Greedhead Option Change Scroll (Gold) (Notice - Center)
+9. Brooch Etching I-IV (Notice - Center only IV)
 
 # Commands 
 - **logdrop|ld** - turn off/on
