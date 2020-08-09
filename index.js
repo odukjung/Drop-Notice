@@ -1036,6 +1036,324 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#00ff00">Unique Seashell I</font>)', cchat)
 		notice('(Unique Seashell I)')
 	}
+	// Avarice Transformation Vellum Token
+	else if(	event.item === 156409	)
+	{
+		sendMessage(header+'(<font color="#fff317">Avarice Transformation Vellum Token</font>)', cchat)
+		notice('(Avarice Transformation Vellum Token)')
+	}
+	// Transformation Vellum Token
+	else if(	event.item === 156408	)
+	{
+		sendMessage(header+'(<font color="#fff317">Transformation Vellum Token</font>)', cchat)
+		notice('(Transformation Vellum Token)')
+	}
+	// Unstable Transformation Vellum Token
+	else if(	event.item === 156407	)
+	{
+		sendMessage(header+'(<font color="#fff317">Unstable Transformation Vellum Token</font>)', cchat)
+		notice('(Unstable Transformation Vellum Token)')
+	}
+	// Upgrade Vellum Token
+	else if(	event.item === 156410	)
+	{
+		sendMessage(header+'(<font color="#fff317">Upgrade Vellum Token</font>)', cchat)
+		notice('(Upgrade Vellum Token)')
+	}
+	
+	//Unstable Option Change Scroll(Green)
+	//[Weapon]
+	else if(	event.item === 204492	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Weapon]</font>)', cchat)
+	}
+	//[Armor]
+	else if(	event.item === 204493	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Armor]</font>)', cchat)
+	}
+	//[Hand Armor]
+	else if(	event.item === 204494	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Hand Armor]</font>)', cchat)
+	}
+	//[Foot Armor]
+	else if(	event.item === 204495	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Foot Armor]</font>)', cchat)
+	}
+	//[Belt]
+	else if(	event.item === 204496	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Belt]</font>)', cchat)
+	}
+	//[Mask]
+	else if(	event.item === 204497	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Mask]</font>)', cchat)
+	}
+	//[Brooch]
+	else if(	event.item === 204498	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Brooch]</font>)', cchat)
+	}
+	//[Ring]
+	else if(	event.item === 204499	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Ring]</font>)', cchat)
+	}
+	//[Necklace]
+	else if(	event.item === 204500	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Necklace]</font>)', cchat)
+	}
+	//[Earrings]
+	else if(	event.item === 204501	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Earrings]</font>)', cchat)
+	}
+	//[Circlet]
+	else if(	event.item === 204502	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Circlet]</font>)', cchat)
+	}
+	
+	//Option Change Scroll(Blue)
+	//[Weapon]
+	else if(	event.item === 204503	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Weapon]</font>)', cchat)
+	}
+	//[Armor]
+	else if(	event.item === 204504	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Armor]</font>)', cchat)
+	}
+	//[Hand Armor]
+	else if(	event.item === 204505	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Hand Armor]</font>)', cchat)
+	}
+	//[Foot Armor]
+	else if(	event.item === 204506	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Foot Armor]</font>)', cchat)
+	}
+	//[Belt]
+	else if(	event.item === 204507	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Belt]</font>)', cchat)
+	}
+	//[Mask]
+	else if(	event.item === 204508	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Mask]</font>)', cchat)
+	}
+	//[Brooch]
+	else if(	event.item === 204509	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Brooch]</font>)', cchat)
+	}
+	//[Ring]
+	else if(	event.item === 204510	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Ring]</font>)', cchat)
+	}
+	//[Necklace]
+	else if(	event.item === 204511	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Necklace]</font>)', cchat)
+	}
+	//[Earrings]
+	else if(	event.item === 204512	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Earrings]</font>)', cchat)
+	}
+	//[Circlet]
+	else if(	event.item === 204513	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Option Change Scroll </font>'+'<font color="#7070ff">[Circlet]</font>)', cchat)
+	}
+	
+	//Option Change Scroll(Gold)
+	//[Gear]
+	else if(	event.item === 204514	)
+	{
+		sendMessage(header+'(<font color="#fff317">Option Boost Scroll [Gear]</font>)', cchat)
+		notice('(Option Boost Scroll [Gear])')
+	}
+	//[Accessory]
+	else if(	event.item === 204515	)
+	{
+		sendMessage(header+'(<font color="#fff317">Option Boost Scroll [Accessory]</font>)', cchat)
+		notice('(Option Boost Scroll [Accessory])')
+	}
+	
+	//Greedhead Option Change Scroll (Gold)
+	//[Weapon]
+	else if(	event.item === 204516	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Weapon]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Weapon])')
+	}
+	//[Armor]
+	else if(	event.item === 204517	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Armor]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Armor])')
+	}
+	//[Hand Armor]
+	else if(	event.item === 204518	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Hand Armor]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Hand Armor])')
+	}
+	//[Foot Armor]
+	else if(	event.item === 204519	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Foot Armor]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Foot Armor])')
+	}
+	//[Belt]
+	else if(	event.item === 204520	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Belt]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Belt])')
+	}
+	//[Mask]
+	else if(	event.item === 204521	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Mask]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Mask])')
+	}
+	//[Brooch]
+	else if(	event.item === 204522	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Brooch]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Brooch])')
+	}
+	//[Ring]
+	else if(	event.item === 204523	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Ring]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Ring])')
+	}
+	//[Necklace]
+	else if(	event.item === 204524	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Necklace]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Necklace])')
+	}
+	//[Earrings]
+	else if(	event.item === 204525	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Earrings]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Earrings])')
+	}
+	//[Circlet]
+	else if(	event.item === 204526	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Circlet]</font>)', cchat)
+		notice('(Greedhead Option Change Scroll [Circlet])')
+	}
+	
+	//Brooch Etching
+	// I
+	else if(	event.item === 6958 	)
+	{
+		sendMessage(header+'(<font color="#ffffff">Brooch Etching </font>'+'<font color="#ffffff">Pumped I</font>)', cchat)
+	}
+	else if(	event.item === 6959		)
+	{
+		sendMessage(header+'(<font color="#ffffff">Brooch Etching </font>'+'<font color="#ffffff">Keen I</font>)', cchat)
+	}
+	else if(	event.item === 6960		)
+	{
+		sendMessage(header+'(<font color="#ffffff">Brooch Etching </font>'+'<font color="#ffffff">Swift I [RIP]</font>)', cchat)
+	}
+	// II
+	else if(	event.item === 6961		)
+	{
+		sendMessage(header+'(<font color="#00ff00">Brooch Etching </font>'+'<font color="#00ff00">Pumped II</font>)', cchat)
+	}
+	else if(	event.item === 6962		)
+	{
+		sendMessage(header+'(<font color="#00ff00">Brooch Etching </font>'+'<font color="#00ff00">Keen II</font>)', cchat)
+	}
+	else if(	event.item === 6963		)
+	{
+		sendMessage(header+'(<font color="#00ff00">Brooch Etching </font>'+'<font color="#00ff00">Swift II [RIP]</font>)', cchat)
+	}
+	else if(	event.item === 6964 	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Brooch Etching </font>'+'<font color="#00ff00">Relentless Pumped II</font>)', cchat)
+	}
+	else if(	event.item === 6965		)
+	{
+		sendMessage(header+'(<font color="#00ff00">Brooch Etching </font>'+'<font color="#00ff00">Relentless Keen II</font>)', cchat)
+	}
+	else if(	event.item === 6966		)
+	{
+		sendMessage(header+'(<font color="#00ff00">Brooch Etching </font>'+'<font color="#00ff00">Relentless Swift II [RIP]</font>)', cchat)
+	}
+	// III
+	else if(	event.item === 6967 	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Pumped III</font>)', cchat)
+	}
+	else if(	event.item === 6968		)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Keen III</font>)', cchat)
+	}
+	else if(	event.item === 6969		)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Swift III [RIP]</font>)', cchat)
+	}
+	else if(	event.item === 6970 	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Pumped III</font>)', cchat)
+	}
+	else if(	event.item === 6971		)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Keen III</font>)', cchat)
+	}
+	else if(	event.item === 6972		)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Swift III [RIP]</font>)', cchat)
+	}
+	// IV
+	else if(	event.item === 6973 	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Pumped IV</font>)', cchat)
+		notice('Brooch Etching Pumped IV)')
+	}
+	else if(	event.item === 6974		)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Keen IV</font>)', cchat)
+		notice('Brooch Etching Keen IV)')
+	}
+	else if(	event.item === 6975		)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Swift IV [RIP]</font>)', cchat)
+		notice('Brooch Etching Swift IV [RIP])')
+	}
+	else if(	event.item === 6976 	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Pumped IV</font>)', cchat)
+		notice('Brooch Etching Relentless Pumped IV)')
+	}
+	else if(	event.item === 6977		)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Keen IV</font>)', cchat)
+		notice('Brooch Etching Relentless Keen IV)')
+	}
+	else if(	event.item === 6978		)
+	{
+		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Swift IV [RIP]</font>)', cchat)
+		notice('Brooch Etching Relentless Swift IV [RIP])')
+	}
+	
+	
 	// Test Mode
 	else if(	event.item === 2	|| 	event.item === 1	/*|| 	event.item === 209617*/	)
 	{
