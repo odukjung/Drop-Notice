@@ -3,6 +3,18 @@ Notice marker when item drop.
 - Notice to self => Whisper channle
 - Notice to Party => Notice channle
 
+# Update
+- Add Item list
+| Avarice Transformation Vellum Token (Notice - Center) |
+| Transformation Vellum Token (Notice - Center) |
+| Unstable Transformation Vellum Token (Notice - Center) |
+| Upgrade Vellum Token (Notice - Center) |
+| Unstable Option Change Scroll (Green) |
+| Option Change Scroll (Blue) |
+| Option Change Scroll (Gold) (Notice - Center) |
+| Greedhead Option Change Scroll (Gold) (Notice - Center) |
+| Brooch Etching I-IV (Notice - Center only IV) |
+
 # Commands 
 - **logdrop|ld** - turn off/on
 - **logdrop|ld pt** - turn off/on Notice Party
@@ -32,3 +44,12 @@ Notice marker when item drop.
 | 20 - Azart Expedition Badge (Notice - Center) |
 | 21 - Card White & Card Green (Notice - Center) |
 | 22 - Unique Seashell I (Notice - Center) |
+| 23 - Avarice Transformation Vellum Token (Notice - Center) |
+| 24 - Transformation Vellum Token (Notice - Center) |
+| 25 - Unstable Transformation Vellum Token (Notice - Center) |
+| 26 - Upgrade Vellum Token (Notice - Center) |
+| 27 - Unstable Option Change Scroll (Green) |
+| 28 - Option Change Scroll (Blue) |
+| 29 - Option Change Scroll (Gold) (Notice - Center) |
+| 30 - Greedhead Option Change Scroll (Gold) (Notice - Center) |
+| 31 - Brooch Etching I-IV (Notice - Center only IV) |
