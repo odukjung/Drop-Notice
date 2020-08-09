@@ -5,6 +5,7 @@ Notice marker when item drop.
 
 # Update
 - Add Item list
+
 | Avarice Transformation Vellum Token (Notice - Center) |
 | Transformation Vellum Token (Notice - Center) |
 | Unstable Transformation Vellum Token (Notice - Center) |
