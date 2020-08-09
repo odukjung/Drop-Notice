@@ -1193,67 +1193,67 @@ let header = 'Drop -> ';
 	//[Weapon]
 	else if(	event.item === 204516	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Weapon]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Weapon]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Weapon])')
 	}
 	//[Armor]
 	else if(	event.item === 204517	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Armor]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Armor]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Armor])')
 	}
 	//[Hand Armor]
 	else if(	event.item === 204518	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Hand Armor]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Hand Armor]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Hand Armor])')
 	}
 	//[Foot Armor]
 	else if(	event.item === 204519	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Foot Armor]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Foot Armor]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Foot Armor])')
 	}
 	//[Belt]
 	else if(	event.item === 204520	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Belt]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Belt]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Belt])')
 	}
 	//[Mask]
 	else if(	event.item === 204521	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Mask]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Mask]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Mask])')
 	}
 	//[Brooch]
 	else if(	event.item === 204522	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Brooch]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Brooch]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Brooch])')
 	}
 	//[Ring]
 	else if(	event.item === 204523	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Ring]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Ring]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Ring])')
 	}
 	//[Necklace]
 	else if(	event.item === 204524	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Necklace]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Necklace]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Necklace])')
 	}
 	//[Earrings]
 	else if(	event.item === 204525	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Earrings]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Earrings]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Earrings])')
 	}
 	//[Circlet]
 	else if(	event.item === 204526	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Greedhead Option Change Scroll </font>'+'<font color="#7070ff">[Circlet]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Circlet]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Circlet])')
 	}
 	
@@ -1324,32 +1324,32 @@ let header = 'Drop -> ';
 	// IV
 	else if(	event.item === 6973 	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Pumped IV</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Brooch Etching </font>'+'<font color="#fff317">Pumped IV</font>)', cchat)
 		notice('Brooch Etching Pumped IV)')
 	}
 	else if(	event.item === 6974		)
 	{
-		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Keen IV</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Brooch Etching </font>'+'<font color="#fff317">Keen IV</font>)', cchat)
 		notice('Brooch Etching Keen IV)')
 	}
 	else if(	event.item === 6975		)
 	{
-		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Swift IV [RIP]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Brooch Etching </font>'+'<font color="#fff317">Swift IV [RIP]</font>)', cchat)
 		notice('Brooch Etching Swift IV [RIP])')
 	}
 	else if(	event.item === 6976 	)
 	{
-		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Pumped IV</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Brooch Etching </font>'+'<font color="#fff317">Relentless Pumped IV</font>)', cchat)
 		notice('Brooch Etching Relentless Pumped IV)')
 	}
 	else if(	event.item === 6977		)
 	{
-		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Keen IV</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Brooch Etching </font>'+'<font color="#fff317">Relentless Keen IV</font>)', cchat)
 		notice('Brooch Etching Relentless Keen IV)')
 	}
 	else if(	event.item === 6978		)
 	{
-		sendMessage(header+'(<font color="#7070ff">Brooch Etching </font>'+'<font color="#7070ff">Relentless Swift IV [RIP]</font>)', cchat)
+		sendMessage(header+'(<font color="#fff317">Brooch Etching </font>'+'<font color="#fff317">Relentless Swift IV [RIP]</font>)', cchat)
 		notice('Brooch Etching Relentless Swift IV [RIP])')
 	}
 	
