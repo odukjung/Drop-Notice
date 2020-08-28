@@ -1063,6 +1063,7 @@ let header = 'Drop -> ';
 	
 	//Unstable Option Change Scroll(Green)
 	//[Weapon]
+	/*
 	else if(	event.item === 204492	)
 	{
 		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Weapon]</font>)', cchat)
@@ -1117,6 +1118,7 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Unstable Option Change Scroll </font>'+'<font color="#00ff00">[Circlet]</font>)', cchat)
 	}
+	*/
 	
 	//Option Change Scroll(Blue)
 	//[Weapon]
@@ -1353,6 +1355,18 @@ let header = 'Drop -> ';
 		notice('Brooch Etching Relentless Swift IV [RIP])')
 	}
 	
+	// Partner : RK-9 (Rare)
+	else if(	event.item === 6967 	)
+	{
+		sendMessage(header+'(<font color="#7070ff">Partner : RK-9 </font>'+'<font color="#7070ff">(Rare)</font>)', cchat)
+	}
+	
+	// Partner : RK-9 (Superior)
+	else if(	event.item === 6978		)
+	{
+		sendMessage(header+'(<font color="#fff317">Partner : RK-9 </font>'+'<font color="#fff317">(Superior)</font>)', cchat)
+		notice('Partner : RK-9 (Superior)')
+	}
 	
 	// Test Mode
 	else if(	event.item === 2	|| 	event.item === 1	/*|| 	event.item === 209617*/	)
