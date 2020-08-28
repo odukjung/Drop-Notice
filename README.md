@@ -6,15 +6,12 @@ Notice marker when item drop.
 # Update
 - Add Item list
 
-1. Avarice Transformation Vellum Token (Notice - Center)
-2. Transformation Vellum Token (Notice - Center)
-3. Unstable Transformation Vellum Token (Notice - Center)
-4. Upgrade Vellum Token (Notice - Center)
-5. Unstable Option Change Scroll (Green)
-6. Option Change Scroll (Blue)
-7. Option Change Scroll (Gold) (Notice - Center)
-8. Greedhead Option Change Scroll (Gold) (Notice - Center)
-9. Brooch Etching I-IV (Notice - Center only IV)
+1. Partner : RK-9 (Rare)
+2. Partner : RK-9 (Superior) (Notice - Center)
+
+- Disable
+1. Unstable Option Change Scroll (Green)
+
 
 # Commands 
 - **logdrop|ld** - turn off/on
@@ -49,8 +46,9 @@ Notice marker when item drop.
 | 24 - Transformation Vellum Token (Notice - Center) |
 | 25 - Unstable Transformation Vellum Token (Notice - Center) |
 | 26 - Upgrade Vellum Token (Notice - Center) |
-| 27 - Unstable Option Change Scroll (Green) |
-| 28 - Option Change Scroll (Blue) |
-| 29 - Option Change Scroll (Gold) (Notice - Center) |
-| 30 - Greedhead Option Change Scroll (Gold) (Notice - Center) |
-| 31 - Brooch Etching I-IV (Notice - Center only IV) |
+| 27 - Option Change Scroll (Blue) |
+| 28 - Option Change Scroll (Gold) (Notice - Center) |
+| 29 - Greedhead Option Change Scroll (Gold) (Notice - Center) |
+| 30 - Brooch Etching I-IV (Notice - Center only IV) |
+| 31 - Partner : RK-9 (Rare) |
+| 32 - Partner : RK-9 (Superior) (Notice - Center) |
