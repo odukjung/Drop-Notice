@@ -1,10 +1,4 @@
 {
     "disableAutoUpdate": false,
-    "name": "LogDrop-Notice",
-    "author": "teralove, odukjung",
-    "description": "Log itemdrop",
-    "options": {
-        "niceName": "LogDrop-Notice"
-    },
-    "servers": [""],
+	"servers": [""]
 }
