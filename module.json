@@ -1,8 +1,8 @@
 {
     "disableAutoUpdate": false,
     "name": "dg-teleport",
-    "author": " Snugglez, odukjung",
+    "author": "Snugglez, odukjung",
     "description": "Log item drop and Notice,
     "servers": [""],
-	"supportUrl": ""
+    "supportUrl": ""
 }
