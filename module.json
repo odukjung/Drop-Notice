@@ -3,6 +3,5 @@
     "name": "LogDrop-Notice",
     "author": "Snugglez, odukjung",
     "description": "Log item drop and Notice",
-    "servers": [""],
-    "supportUrl": ""
+    "servers": [""]
 }
