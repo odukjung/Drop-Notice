@@ -3,5 +3,6 @@
     "name": "dg-teleport",
     "author": " Snugglez, odukjung",
     "description": "Log item drop and Notice,
-    "servers": [""]
+    "servers": [""],
+	"supportUrl": ""
 }
