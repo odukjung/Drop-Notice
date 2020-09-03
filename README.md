@@ -8,6 +8,7 @@ Notice marker when item drop.
 
 1. Partner : RK-9 (Rare)
 2. Partner : RK-9 (Superior) (Notice - Center)
+3. Hagufna Cape (Notice - Center)
 
 - Disable
 1. Unstable Option Change Scroll (Green)
