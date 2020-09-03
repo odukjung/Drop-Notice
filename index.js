@@ -1368,6 +1368,13 @@ let header = 'Drop -> ';
 		notice('Partner : RK-9 (Superior)')
 	}
 	
+	// Hagufna Cape
+	else if(	event.item === 270105	|| 	event.item === 270110	|| 	event.item === 270111	)
+	{
+		sendMessage(header+'(<font color="#fff317">Hagufna </font>'+'<font color="#fff317">Cape</font>)', cchat)
+		notice('Hagufna Cape')
+	}
+	
 	// Test Mode
 	else if(	event.item === 2	|| 	event.item === 1	/*|| 	event.item === 209617*/	)
 	{
