@@ -6,8 +6,8 @@ Notice marker when item drop.
 # Update
 - Add Item list
 
-1. Partner : RK-9 (Rare)
-2. Partner : RK-9 (Superior) (Notice - Center)
+1. Partner : RK-9 (Rare) fix done
+2. Partner : RK-9 (Superior) (Notice - Center) fix done
 3. Hagufna Cape (Notice - Center)
 
 - Disable
