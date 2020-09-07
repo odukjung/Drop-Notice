@@ -1356,13 +1356,13 @@ let header = 'Drop -> ';
 	}
 	
 	// Partner : RK-9 (Rare)
-	else if(	event.item === 6967 	)
+	else if(	event.item === 207361 	)
 	{
 		sendMessage(header+'(<font color="#7070ff">Partner : RK-9 </font>'+'<font color="#7070ff">(Rare)</font>)', cchat)
 	}
 	
 	// Partner : RK-9 (Superior)
-	else if(	event.item === 6978		)
+	else if(	event.item === 207362	)
 	{
 		sendMessage(header+'(<font color="#fff317">Partner : RK-9 </font>'+'<font color="#fff317">(Superior)</font>)', cchat)
 		notice('Partner : RK-9 (Superior)')
