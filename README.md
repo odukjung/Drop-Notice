@@ -9,6 +9,7 @@ Notice marker when item drop.
 1. Partner : RK-9 (Rare) fix done
 2. Partner : RK-9 (Superior) (Notice - Center) fix done
 3. Hagufna Cape (Notice - Center)
+4. Hagufna Greatsword (Notice - Center)
 
 - Disable
 1. Unstable Option Change Scroll (Green)
@@ -53,3 +54,5 @@ Notice marker when item drop.
 | 30 - Brooch Etching I-IV (Notice - Center only IV) |
 | 31 - Partner : RK-9 (Rare) |
 | 32 - Partner : RK-9 (Superior) (Notice - Center) |
+| 33 - Hagufna Cape (Notice - Center) |
+| 34 - Hagufna Greatsword (Notice - Center) |
