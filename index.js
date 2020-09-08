@@ -1375,6 +1375,20 @@ let header = 'Drop -> ';
 		notice('Hagufna Cape')
 	}
 	
+	// Hagufna Weapon Omament
+	else if(	event.item === 270119	|| 	event.item === 270124	|| 	event.item === 270125	)
+	{
+		sendMessage(header+'(<font color="#fff317">Hagufna </font>'+'<font color="#fff317">Weapon Omament</font>)', cchat)
+		notice('Hagufna Weapon Omament')
+	}
+	
+	// Hagufna Greatsword
+	else if(	event.item === 270126	|| 	event.item === 270131	|| 	event.item === 270132	)
+	{
+		sendMessage(header+'(<font color="#fff317">Hagufna </font>'+'<font color="#fff317">Greatsword</font>)', cchat)
+		notice('Hagufna Greatsword')
+	}
+	
 	// Test Mode
 	else if(	event.item === 2	|| 	event.item === 1	/*|| 	event.item === 209617*/	)
 	{
