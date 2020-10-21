@@ -6,13 +6,12 @@ Notice marker when item drop.
 # Update
 - Add Item list
 
-1. Partner : RK-9 (Rare) fix done
-2. Partner : RK-9 (Superior) (Notice - Center) fix done
-3. Hagufna Cape (Notice - Center)
-4. Hagufna Greatsword (Notice - Center)
+1. Kaia’s Gear Box
+2. Etching Stone
+3. Etching Essence
 
 - Disable
-1. Unstable Option Change Scroll (Green)
+1. Box Gear&Mats and change to Superior Exodor Gear Box
 
 
 # Commands 
@@ -56,3 +55,6 @@ Notice marker when item drop.
 | 32 - Partner : RK-9 (Superior) (Notice - Center) |
 | 33 - Hagufna Cape (Notice - Center) |
 | 34 - Hagufna Greatsword (Notice - Center) |
+| 35 - Kaia’s Gear Box |
+| 36 - Etching Stone |
+| 37 - Etching Essence |
