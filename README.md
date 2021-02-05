@@ -6,12 +6,12 @@ Notice marker when item drop.
 # Update
 - Add Item list
 
-1. Kaia’s Gear Box
-2. Etching Stone
-3. Etching Essence
+1. Soul Option Change Scroll (Green -> Gold)
+2. Azart Force Loot Chest
+3. Azart Force War Trophy Chest
 
 - Disable
-1. Box Gear&Mats and change to Superior Exodor Gear Box
+1. Feed Weapon & Feed Armor
 
 
 # Commands 
