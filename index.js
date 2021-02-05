@@ -981,6 +981,8 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Half Map</font>)', cchat)
 	}
+	
+	/*
 	// Feed Weapon
 	else if(	event.item === 98677	 )
 	{
@@ -991,6 +993,8 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Golden Feed Armor</font>)', cchat)
 	}
+	*/
+	
 	// Azart Force Sign
 	else if(	event.item === 209123	)
 	{
@@ -1009,6 +1013,7 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#00ff00">Azart Expedition Badge</font>)', cchat)
 		notice('(Azart Expedition Badge)')
 	}
+	/*
 	// Card White
 	else if(	event.item === 300000 || event.item === 300001 || event.item === 300002 || event.item === 300003 
 		 || 	event.item === 300004 || event.item === 300005 || event.item === 300006 || event.item === 300007
@@ -1039,7 +1044,10 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#ffffff">Card Fragment - White</font>)', cchat)
 		notice('(Card Fragment - White)')
 	}
-	// Card Green	
+	*/
+	
+	// Card Green
+	/*
 	else if(	event.item === 301000 || event.item === 301001 || event.item === 301002 || event.item === 301003 
 		 || 	event.item === 301004 || event.item === 301005 || event.item === 301006 || event.item === 301007
 		 || 	event.item === 301008 || event.item === 301009 || event.item === 301010 || event.item === 301011
@@ -1071,6 +1079,8 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#00ff00">Card Fragment - Green</font>)', cchat)
 		notice('(Card Fragment - Green)')
 	}
+	*/
+	
 	// Event Item
 	else if(	event.item === 155003	)
 	{
@@ -1300,6 +1310,55 @@ let header = 'Drop -> ';
 		notice('(Greedhead Option Change Scroll [Circlet])')
 	}
 	
+	//Unstable Soul Option Change Scroll(Green)
+	//[Weapon]
+	else if(	event.item === 204541	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Weapon]</font>)', cchat)
+	}
+	//[Armor]
+	else if(	event.item === 204542	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Armor]</font>)', cchat)
+	}
+	
+	//Soul Option Change Scroll(Blue)
+	//[Weapon]
+	else if(	event.item === 204529	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Weapon]</font>)', cchat)
+	}
+	//[Armor]
+	else if(	event.item === 204530	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Armor]</font>)', cchat)
+	}
+	
+	//Soul Greedhead Option Change Scroll (Gold)
+	//[Weapon]
+	else if(	event.item === 204533	)
+	{
+		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Weapon]</font>)', cchat)
+		notice('(Soul Greedhead Option Change Scroll [Weapon])')
+	}
+	//[Armor]
+	else if(	event.item === 204534	)
+	{
+		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Armor]</font>)', cchat)
+		notice('(Soul Greedhead Option Change Scroll [Armor])')
+	}
+	
+	//Azart Force Loot Chest
+	else if(	event.item === 98996	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Azart Force Loot </font>'+'<font color="#00ff00">Chest</font>)', cchat)
+	}
+	//Azart Force War Trophy Chest
+	else if(	event.item === 98997	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Azart Force War Trophy </font>'+'<font color="#00ff00">Chest</font>)', cchat)
+	}
+	
 	//Brooch Etching
 	// I
 	else if(	event.item === 6958 	)
@@ -1409,11 +1468,45 @@ let header = 'Drop -> ';
 		notice('Partner : RK-9 (Superior)')
 	}
 	
+	// Partner : Kalligar (Rare)
+	else if(	event.item === 205738 	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Partner : Kalligar </font>'+'<font color="#0391c4">(Rare)</font>)', cchat)
+	}
+	
+	// Partner : Kalligar (Superior)
+	else if(	event.item === 205739	)
+	{
+		sendMessage(header+'(<font color="#fff317">Partner : Kalligar </font>'+'<font color="#fff317">(Superior)</font>)', cchat)
+		notice('Partner : Kalligar (Superior)')
+	}
+	
 	// Hagufna Cape
 	else if(	event.item === 270105	|| 	event.item === 270110	|| 	event.item === 270111	)
 	{
 		sendMessage(header+'(<font color="#fff317">Hagufna </font>'+'<font color="#fff317">Cape</font>)', cchat)
 		notice('Hagufna Cape')
+	}
+	
+	// Sharp Black Core
+	else if(	event.item === 89911	)
+	{
+		sendMessage(header+'(<font color="#fff317">Sharp Black </font>'+'<font color="#fff317">Core</font>)', cchat)
+		notice('Sharp Black Core')
+	}
+	
+	// Hard Black Core Shard
+	else if(	event.item === 89912	)
+	{
+		sendMessage(header+'(<font color="#fff317">Hard Black Core </font>'+'<font color="#fff317">Shard</font>)', cchat)
+		notice('Hard Black Core Shard')
+	}
+	
+	// Extreme Key
+	else if(	event.item === 155520	)
+	{
+		sendMessage(header+'(<font color="#fff317">Extreme </font>'+'<font color="#fff317">Key</font>)', cchat)
+		notice('Extreme Key')
 	}
 	
 	// Hagufna Weapon Omament
@@ -1428,6 +1521,21 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Hagufna </font>'+'<font color="#fff317">Greatsword</font>)', cchat)
 		notice('Hagufna Greatsword')
+	}
+	
+	// Evil God Lance
+	else if(	event.item === 270957	|| 	event.item === 270958	|| 	event.item === 270959	
+			|| 	event.item === 270960	|| 	event.item === 270961	||	event.item === 270962 || event.item === 270963	)
+	{
+		sendMessage(header+'(<font color="#fff317">Evil God </font>'+'<font color="#fff317">Lance</font>)', cchat)
+		notice('Evil God Lance')
+	}
+	
+	// Evil God Cape
+	else if(	event.item === 270971	|| 	event.item === 270975	|| 	event.item === 270976	)
+	{
+		sendMessage(header+'(<font color="#fff317">Evil God </font>'+'<font color="#fff317">Cape</font>)', cchat)
+		notice('Evil God Cape')
 	}
 	
 	//Essence
@@ -1455,48 +1563,48 @@ let header = 'Drop -> ';
 	//Stone
 	else if(	event.item === 89965	)
 	{
-		sendMessage(header+'(<font color="#fff317">Solar </font>'+'<font color="#fff317">Stone</font>)', cchat)
-		notice('Solar Stone')
+		sendMessage(header+'(<font color="#fff317">Refined Solar </font>'+'<font color="#fff317">Stone</font>)', cchat)
+		notice('Refined Solar Stone')
 	}
 	else if(	event.item === 89966	)
 	{
-		sendMessage(header+'(<font color="#fff317">Lava </font>'+'<font color="#fff317">Stone</font>)', cchat)
-		notice('Lava Stone')
+		sendMessage(header+'(<font color="#fff317">Refined Lava </font>'+'<font color="#fff317">Stone</font>)', cchat)
+		notice('Refined Lava Stone')
 	}
 	else if(	event.item === 89967	)
 	{
-		sendMessage(header+'(<font color="#fff317">Glacial </font>'+'<font color="#fff317">Stone</font>)', cchat)
-		notice('Glacial Stone')
+		sendMessage(header+'(<font color="#fff317">Refined Glacial </font>'+'<font color="#fff317">Stone</font>)', cchat)
+		notice('Refined Glacial Stone')
 	}
 	else if(	event.item === 89968	)
 	{
-		sendMessage(header+'(<font color="#fff317">Frost </font>'+'<font color="#fff317">Stone</font>)', cchat)
-		notice('Frost Stone')
+		sendMessage(header+'(<font color="#fff317">Refined Frost </font>'+'<font color="#fff317">Stone</font>)', cchat)
+		notice('Refined Frost Stone')
 	}
 	else if(	event.item === 89969	)
 	{
-		sendMessage(header+'(<font color="#fff317">Lighting </font>'+'<font color="#fff317">Stone (Ring)</font>)', cchat)
-		notice('Lighting Stone (Ring)')
+		sendMessage(header+'(<font color="#fff317">Refined Lighting </font>'+'<font color="#fff317">Stone (Ring)</font>)', cchat)
+		notice('Refined Lighting Stone (Ring)')
 	}
 	else if(	event.item === 89970	)
 	{
-		sendMessage(header+'(<font color="#fff317">Lighting </font>'+'<font color="#fff317">Stone (Earrings)</font>)', cchat)
-		notice('Lighting Stone (Earrings)')
+		sendMessage(header+'(<font color="#fff317">Refined Lighting </font>'+'<font color="#fff317">Stone (Earrings)</font>)', cchat)
+		notice('Refined Lighting Stone (Earrings)')
 	}
 	else if(	event.item === 89971	)
 	{
-		sendMessage(header+'(<font color="#fff317">Lighting </font>'+'<font color="#fff317">Stone (Necklace)</font>)', cchat)
-		notice('Lighting Stone (Necklace)')
+		sendMessage(header+'(<font color="#fff317">Refined Lighting </font>'+'<font color="#fff317">Stone (Necklace)</font>)', cchat)
+		notice('Refined Lighting Stone (Necklace)')
 	}
 	else if(	event.item === 89972	)
 	{
-		sendMessage(header+'(<font color="#fff317">Lighting </font>'+'<font color="#fff317">Stone (Belt)</font>)', cchat)
-		notice('Lighting Stone (Belt)')
+		sendMessage(header+'(<font color="#fff317">Refined Lighting </font>'+'<font color="#fff317">Stone (Belt)</font>)', cchat)
+		notice('Refined Lighting Stone (Belt)')
 	}
 	else if(	event.item === 89973	)
 	{
-		sendMessage(header+'(<font color="#fff317">Lighting </font>'+'<font color="#fff317">Stone (Brooch)</font>)', cchat)
-		notice('Lighting Stone (Brooch)')
+		sendMessage(header+'(<font color="#fff317">Refined Lighting </font>'+'<font color="#fff317">Stone (Brooch)</font>)', cchat)
+		notice('Refined Lighting Stone (Brooch)')
 	}
 	
 	// Test Mode
