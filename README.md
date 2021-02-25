@@ -6,12 +6,11 @@ Notice marker when item drop.
 # Update
 - Add Item list
 
-1. Soul Option Change Scroll (Green -> Gold)
-2. Azart Force Loot Chest
-3. Azart Force War Trophy Chest
-
-- Disable
-1. Feed Weapon & Feed Armor
+1. Soul Option Change Scroll Green -> Gold (Foot, Hand)
+2. Kaia's Soul Token
+3. Kaia's Soul Cryolite
+4. Thulsan Forces Loot Chest
+5. Thulsan Forces War Trophy Chest
 
 
 # Commands 
