@@ -1321,6 +1321,16 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Armor]</font>)', cchat)
 	}
+	//[Hand Armor]
+	else if(	event.item === 204543	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Hand Armor]</font>)', cchat)
+	}
+	//[Foot Armor]
+	else if(	event.item === 204544	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Foot Armor]</font>)', cchat)
+	}
 	
 	//Soul Option Change Scroll(Blue)
 	//[Weapon]
@@ -1332,6 +1342,16 @@ let header = 'Drop -> ';
 	else if(	event.item === 204530	)
 	{
 		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Armor]</font>)', cchat)
+	}
+	//[Hand Armor]
+	else if(	event.item === 204531	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Hand Armor]</font>)', cchat)
+	}
+	//[Foot Armor]
+	else if(	event.item === 204532	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Foot Armor]</font>)', cchat)
 	}
 	
 	//Soul Greedhead Option Change Scroll (Gold)
@@ -1347,6 +1367,18 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Armor]</font>)', cchat)
 		notice('(Soul Greedhead Option Change Scroll [Armor])')
 	}
+	//[Hand Armor]
+	else if(	event.item === 204535	)
+	{
+		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Hand Armor]</font>)', cchat)
+		notice('(Soul Greedhead Option Change Scroll [Hand Armor])')
+	}
+	//[Foot Armor]
+	else if(	event.item === 204536	)
+	{
+		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Foot Armor]</font>)', cchat)
+		notice('(Soul Greedhead Option Change Scroll [Foot Armor])')
+	}
 	
 	//Azart Force Loot Chest
 	else if(	event.item === 98996	)
@@ -1357,6 +1389,29 @@ let header = 'Drop -> ';
 	else if(	event.item === 98997	)
 	{
 		sendMessage(header+'(<font color="#00ff00">Azart Force War Trophy </font>'+'<font color="#00ff00">Chest</font>)', cchat)
+	}
+	//Thulsan Forces Loot Chest
+	else if(	event.item === 99009	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Thulsan Forces Loot </font>'+'<font color="#00ff00">Chest</font>)', cchat)
+	}
+	//Thulsan Forces War Trophy Chest
+	else if(	event.item === 99010	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Thulsan Forces War Trophy </font>'+'<font color="#00ff00">Chest</font>)', cchat)
+	}
+	
+	//Kaia's Soul Cryolite
+	else if(	event.item === 98998	)
+	{
+		sendMessage(header+'(<font color="#fff317">Kaia Soul </font>'+'<font color="#fff317">Cryolite</font>)', cchat)
+		notice('(Kaia Soul Cryolite)')
+	}
+	//Kaia's Soul Token
+	else if(	event.item === 207751	)
+	{
+		sendMessage(header+'(<font color="#fff317">Kaia Soul </font>'+'<font color="#fff317">Token</font>)', cchat)
+		notice('(Kaia Soul Token)')
 	}
 	
 	//Brooch Etching
