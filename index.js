@@ -791,7 +791,7 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'<font color="#b5aaaa">(Trash Item Delete It)</font>', cchat)
 	}
-	// Brooch
+	// Brooch / Mask / Belt
 	//1*1
 	
 	else if (	event.item === 88875	)
@@ -801,6 +801,30 @@ let header = 'Drop -> ';
 	else if (	event.item === 88879	)
 	{
 		sendMessage(header+'(<font color="#ffffff">Dark Light Brooch </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
+	}
+	else if (	event.item === 209384	)
+	{
+		sendMessage(header+'(<font color="#ffffff">Kaia Fury Brooch </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
+	}
+	else if (	event.item === 209388	)
+	{
+		sendMessage(header+'(<font color="#ffffff">Kaia Wisdom Brooch </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
+	}
+	else if (	event.item === 209376	)
+	{
+		sendMessage(header+'(<font color="#ffffff">Kaia Fury Mask </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
+	}
+	else if (	event.item === 209380	)
+	{
+		sendMessage(header+'(<font color="#ffffff">Kaia Wisdom Mask </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
+	}
+	else if (	event.item === 209392	)
+	{
+		sendMessage(header+'(<font color="#ffffff">Kaia Fury Belt </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
+	}
+	else if (	event.item === 209396	)
+	{
+		sendMessage(header+'(<font color="#ffffff">Kaia Wisdom Belt </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
 	}
 	/*
 	else if (	event.item === 88875
@@ -820,6 +844,30 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Dark Light Brooch </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
 	}
+	else if(	event.item === 209385	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Kaia Fury Brooch </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209389	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Kaia Wisdom Brooch </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209377	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Kaia Fury Mask </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209381	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Kaia Wisdom Mask </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209393	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Kaia Fury Belt </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209397	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Kaia Wisdom Belt </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
+	}
 	/*
 	else if(	event.item === 88876
 		 || 	event.item === 88880
@@ -838,6 +886,30 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#0391c4">Dark Light Brooch </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
 	}
+	else if(	event.item === 209386	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Kaia Fury Brooch </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209390	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Kaia Wisdom Brooch </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209378	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Kaia Fury Mask </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209382	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Kaia Wisdom Mask </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209394	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Kaia Fury Belt </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209398	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Kaia Wisdom Belt </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
+	}
 	/*
 	else if(	event.item === 88877
 		 || 	event.item === 88881
@@ -855,6 +927,30 @@ let header = 'Drop -> ';
 	else if(	event.item === 88882	)
 	{
 		sendMessage(header+'(<font color="#fff317">Dark Light Brooch </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209387	)
+	{
+		sendMessage(header+'(<font color="#fff317">Kaia Fury Brooch </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209391	)
+	{
+		sendMessage(header+'(<font color="#fff317">Kaia Wisdom Brooch </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209379	)
+	{
+		sendMessage(header+'(<font color="#fff317">Kaia Fury Mask </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209383	)
+	{
+		sendMessage(header+'(<font color="#fff317">Kaia Wisdom Mask </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209395	)
+	{
+		sendMessage(header+'(<font color="#fff317">Kaia Fury Belt </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
+	}
+	else if(	event.item === 209399	)
+	{
+		sendMessage(header+'(<font color="#fff317">Kaia Wisdom Belt </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
 	}
 	/*
 	else if(	event.item === 88878
@@ -888,6 +984,7 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#c63db6">Zenobia Box</font>)', cchat)
 		notice('(Zenobia Box)')
 	}
+	/*
 	// Kaia Gear Box [Weapon]
 	else if(	event.item === 208040	)
 	{
@@ -919,6 +1016,38 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#c63db6">Kaia Gear Box</font>)', cchat)
 		notice('Kaia Gear Box')
 	}
+	*/
+	// Kaia Soul Gear Box [Weapon]
+	else if(	event.item === 208085	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Kaia Soul Gear Box [Weapon]</font>)', cchat)
+		notice('Kaia Soul Gear Box [Weapon]')
+	}
+	// Kaia Soul Gear Box [Body Armor]
+	else if(	event.item === 208086	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Kaia Soul Gear Box [Body Armor]</font>)', cchat)
+		notice('Kaia Soul Gear Box [Body Armor]')
+	}
+	// Kaia Soul Gear Box [Hand Armor]
+	else if(	event.item === 208087	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Kaia Soul Gear Box [Hand Armor]</font>)', cchat)
+		notice('Kaia Soul Gear Box [Hand Armor]')
+	}
+	// Kaia Soul Gear Box [Foot Armor]
+	else if(	event.item === 208088	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Kaia Soul Gear Box [Foot Armor]</font>)', cchat)
+		notice('Kaia Soul Gear Box [Foot Armor]')
+	}
+	// Kaia Soul Gear Box
+	else if(	event.item === 208089	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Kaia Soul Gear Box</font>)', cchat)
+		notice('Kaia Soul Gear Box')
+	}
+	/*
 	// Exodor Superior Weapon Box
 	else if(	event.item === 206950	)
 	{
@@ -939,6 +1068,7 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Exodor Superior Foot Armor Box</font>)', cchat)
 	}
+	*/
 	// Map
 	else if(	event.item === 206858
 		 || 	event.item === 206859
@@ -1331,6 +1461,21 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Foot Armor]</font>)', cchat)
 	}
+	//[Mask]
+	else if(	event.item === 209400	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Mask]</font>)', cchat)
+	}
+	//[Brooch]
+	else if(	event.item === 209401	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Brooch]</font>)', cchat)
+	}
+	//[Belt]
+	else if(	event.item === 209402	)
+	{
+		sendMessage(header+'(<font color="#00ff00">Unstable Soul Option Change Scroll </font>'+'<font color="#00ff00">[Belt]</font>)', cchat)
+	}
 	
 	//Soul Option Change Scroll(Blue)
 	//[Weapon]
@@ -1352,6 +1497,21 @@ let header = 'Drop -> ';
 	else if(	event.item === 204532	)
 	{
 		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Foot Armor]</font>)', cchat)
+	}
+	//[Mask]
+	else if(	event.item === 209403	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Mask]</font>)', cchat)
+	}
+	//[Brooch]
+	else if(	event.item === 209404	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Brooch]</font>)', cchat)
+	}
+	//[Belt]
+	else if(	event.item === 209405	)
+	{
+		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Belt]</font>)', cchat)
 	}
 	
 	//Soul Greedhead Option Change Scroll (Gold)
@@ -1378,6 +1538,24 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Foot Armor]</font>)', cchat)
 		notice('(Soul Greedhead Option Change Scroll [Foot Armor])')
+	}
+	//[Mask]
+	else if(	event.item === 209406	)
+	{
+		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Mask]</font>)', cchat)
+		notice('(Soul Greedhead Option Change Scroll [Mask])')
+	}
+	//[Brooch]
+	else if(	event.item === 209407	)
+	{
+		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Brooch]</font>)', cchat)
+		notice('(Soul Greedhead Option Change Scroll [Brooch])')
+	}
+	//[Belt]
+	else if(	event.item === 209408	)
+	{
+		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Belt]</font>)', cchat)
+		notice('(Soul Greedhead Option Change Scroll [Belt])')
 	}
 	
 	//Azart Force Loot Chest
