@@ -1771,6 +1771,42 @@ let header = 'Drop -> ';
 		notice('Evil God Cape')
 	}
 	
+	// Nightmare Undying Warlord Body Armor Chest
+	else if(	event.item === 207759	)
+	{
+		sendMessage(header+'(<font color="#fff317">Nightmare Undying Warlord </font>'+'<font color="#fff317">Body Armor Chest</font>)', cchat)
+		notice('Nightmare Undying Warlord Body Armor Chest')
+	}
+	
+	// Gardan Armor Chest
+	else if(	event.item === 207760	)
+	{
+		sendMessage(header+'(<font color="#fff317">Gardan </font>'+'<font color="#fff317">Body Armor Chest</font>)', cchat)
+		notice('Gardan Armor Chest')
+	}
+	
+	// Gardan Axe
+	else if(	event.item === 272793	|| 	event.item === 272798	|| 	event.item === 272799	|| 	event.item === 273135	)
+	{
+		sendMessage(header+'(<font color="#fff317">Gardan </font>'+'<font color="#fff317">Axe</font>)', cchat)
+		notice('Gardan Axe')
+	}
+	
+	// Gardan Cloak
+	else if(	event.item === 272807	|| 	event.item === 272812	|| 	event.item === 272813	|| 	event.item === 273137	)
+	{
+		sendMessage(header+'(<font color="#fff317">Gardan </font>'+'<font color="#fff317">Cloak</font>)', cchat)
+		notice('Gardan Cloak')
+	}
+	
+	// Eternal Brawler Powerfists
+	else if(	event.item === 271495	|| 	event.item === 271494	|| 	event.item === 271493	|| 	event.item === 271492
+			|| 	event.item === 271491	|| 	event.item === 271490	||	event.item === 271489	)
+	{
+		sendMessage(header+'(<font color="#fff317">Eternal Brawler </font>'+'<font color="#fff317">Powerfists</font>)', cchat)
+		notice('Eternal Brawler Powerfists')
+	}
+	
 	//Essence
 	else if(	event.item === 89913	)
 	{
