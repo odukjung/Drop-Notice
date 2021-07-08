@@ -39,15 +39,13 @@ let header = 'Drop -> ';
 		}
 	// Mark
 	
-	if(		event.item === 300
-	||  	event.item === 400
-	||  	event.item === 500
-	||  	event.item === 600	)
-		{
+	if(	event.item === 300	||  event.item === 400	||  event.item === 500	||  event.item === 600	)
+	{
 		sendMessage(header+'(<font color="#ffffff">Item </font>'+'<font color="#ffffff">Drop</font>)', cchat)
 		notice('(Item Drop)')
-		}
+	}
 
+	/*
 	// Weapon Gold lvl 69 Twin Swords / Lance / Greatsword / Axe / Disc / Bow / Staff / Scepter / Scythes / Arcannon / Powerfists / Shuriken / Runeglaive
 	//1*1
 	else if(	event.item === 89509 	)
@@ -102,24 +100,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#ffffff">Runeglaive </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89509 
-		 ||  	event.item === 89517 
-		 || 	event.item === 89525
-		 || 	event.item === 89533
-		 || 	event.item === 89545
-		 || 	event.item === 89549
-		 || 	event.item === 89561
-		 || 	event.item === 89569
-		 || 	event.item === 89577
-		 || 	event.item === 89585
-		 || 	event.item === 89589
-		 || 	event.item === 89601
-		 || 	event.item === 89605
-	)
-	
-		sendMessage(header+'(<font color="#ffffff">Weapon </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
-	*/
 	
 	// Weapon Gold lvl 69 Twin Swords / Lance / Greatsword / Axe / Disc / Bow / Staff / Scepter / Scythes / Arcannon / Powerfists / Shuriken / Runeglaive
 	//1*2
@@ -176,24 +156,6 @@ let header = 'Drop -> ';
 	{ 
 		sendMessage(header+'(<font color="#00ff00">Runeglaive </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)			
 	}
-	/*
-	else if(	event.item === 89510 
-		 || 	event.item === 89518
-		 || 	event.item === 89526
-		 || 	event.item === 89534
-		 || 	event.item === 89546
-		 || 	event.item === 89550
-		 || 	event.item === 89562
-		 || 	event.item === 89570
-		 || 	event.item === 89578
-		 || 	event.item === 89586
-		 || 	event.item === 89590
-		 || 	event.item === 89602
-		 || 	event.item === 89606
-		 )
-		 
-		sendMessage(header+'(<font color="#00ff00">Weapon </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
-	*/
 	
 	// Weapon Gold lvl 69 Twin Swords / Lance / Greatsword / Axe / Disc / Bow / Staff / Scepter / Scythes / Arcannon / Powerfists / Shuriken / Runeglaive
 	//1*3
@@ -250,24 +212,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#0391c4">Runeglaive </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89511 
-		 || 	event.item === 89519
-		 || 	event.item === 89527
-		 || 	event.item === 89535
-		 || 	event.item === 89547
-		 || 	event.item === 89551
-		 || 	event.item === 89563
-		 || 	event.item === 89571
-		 || 	event.item === 89579
-		 || 	event.item === 89587
-		 || 	event.item === 89591
-		 || 	event.item === 89603
-		 || 	event.item === 89607
-		 )
-		 
-		sendMessage(header+'(<font color="#0391c4">Weapon </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
-	*/
 	
 	// Weapon Gold lvl 69 Twin Swords / Lance / Greatsword / Axe / Disc / Bow / Staff / Scepter / Scythes / Arcannon / Powerfists / Shuriken / Runeglaive
 	//1*4
@@ -324,24 +268,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Runeglaive </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
 	}
-	/*	
-	else if(	event.item === 89512 
-		 || 	event.item === 89520
-		 || 	event.item === 89528
-		 || 	event.item === 89536
-		 || 	event.item === 89548
-		 || 	event.item === 89552
-		 || 	event.item === 89564
-		 || 	event.item === 89572
-		 || 	event.item === 89580
-		 || 	event.item === 89588
-		 || 	event.item === 89592
-		 || 	event.item === 89604
-		 || 	event.item === 89608
-		 )
-		 
-		sendMessage(header+'(<font color="#fff317">Weapon </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
-	*/
 	
 	// Weapon Gold lvl 69 Twin Swords / Lance / Greatsword / Axe / Disc / Bow / Staff / Scepter / Scythes / Arcannon / Powerfists / Shuriken / Runeglaive
 	//1*5
@@ -362,6 +288,7 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'<font color="#b5aaaa">(Trash Item Delete It)</font>', cchat)
 	}
+	
 	// Armor Gold lvl 69 Hauberk / Cuirass / Robe
 	//1*1
 	
@@ -385,16 +312,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#ffffff">Dark Light Robe </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
 	}
-	/*
-	else if (	event.item === 89613
-		 ||  	event.item === 89617 
-		 || 	event.item === 89621
-		 || 	event.item === 89625
-		 || 	event.item === 89633
-		 )
-	
-		sendMessage(header+'(<font color="#ffffff">Armor </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Hauberk / Cuirass / Robe
 	//1*2
@@ -419,16 +336,6 @@ let header = 'Drop -> ';
 	{	 
 		sendMessage(header+'(<font color="#00ff00">Dark Light Robe </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89614
-		 || 	event.item === 89618
-		 || 	event.item === 89622
-		 || 	event.item === 89626
-		 || 	event.item === 89634
-		 )
-		 
-		sendMessage(header+'(<font color="#00ff00">Armor </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Hauberk / Cuirass / Robe
 	//1*3
@@ -453,16 +360,6 @@ let header = 'Drop -> ';
 	{ 
 		sendMessage(header+'(<font color="#0391c4">Dark Light Robe </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89615
-		 || 	event.item === 89619
-		 || 	event.item === 89623
-		 || 	event.item === 89627
-		 || 	event.item === 89635
-		 )
-		 
-		sendMessage(header+'(<font color="#0391c4">Armor </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
-	*/
 
 	// Armor Gold lvl 69 Hauberk / Cuirass / Robe
 	//1*4
@@ -487,16 +384,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Dark Light Robe </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89616 
-		 || 	event.item === 89620
-		 || 	event.item === 89624
-		 || 	event.item === 89628
-		 || 	event.item === 89636
-		 )
-		 
-		sendMessage(header+'(<font color="#fff317">Armor </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Hauberk / Cuirass / Robe
 	//1*5
@@ -505,6 +392,7 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'<font color="#b5aaaa">(Trash Item Delete It)</font>', cchat)
 	}
+	
 	// Armor Gold lvl 69 Gauntlet / Gloves / Sleeves
 	//1*1
 	
@@ -528,16 +416,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#ffffff">Dark Light Sleeves </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
 	}
-	/*	
-	else if (	event.item === 89637
-		 || 	event.item === 89641
-		 || 	event.item === 89645
-		 || 	event.item === 89649
-		 || 	event.item === 89657
-		 )
-	
-		sendMessage(header+'(<font color="#ffffff">Hand </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Gauntlet / Gloves / Sleeves
 	//1*2
@@ -562,16 +440,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Dark Light Sleeves </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89638
-		 || 	event.item === 89642
-		 || 	event.item === 89646
-		 || 	event.item === 89650
-		 || 	event.item === 89658
-		 )
-		 
-		sendMessage(header+'(<font color="#00ff00">Hand </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Gauntlet / Gloves / Sleeves
 	//1*3
@@ -596,16 +464,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#0391c4">Dark Light Sleeves </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89639
-		 || 	event.item === 89643
-		 || 	event.item === 89647
-		 || 	event.item === 89651
-		 || 	event.item === 89659
-		 )
-		 
-		sendMessage(header+'(<font color="#0391c4">Hand </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Gauntlet / Gloves / Sleeves
 	//1*4
@@ -630,16 +488,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Dark Light Sleeves </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89640
-		 || 	event.item === 89644
-		 || 	event.item === 89648
-		 || 	event.item === 89652
-		 || 	event.item === 89660
-		 )
-		 
-		sendMessage(header+'(<font color="#fff317">Hand </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Gauntlet / Gloves / Sleeves
 	//1*5
@@ -648,6 +496,7 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'<font color="#b5aaaa">(Trash Item Delete It)</font>', cchat)
 	}
+	
 	// Armor Gold lvl 69 Greaves / Boots / Shoes
 	//1*1
 	
@@ -671,16 +520,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#ffffff">Dark Light Shoes </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
 	}
-	/*
-	else if (	event.item === 89661
-		 || 	event.item === 89665
-		 || 	event.item === 89669
-		 || 	event.item === 89673
-		 || 	event.item === 89681
-		 )
-	
-		sendMessage(header+'(<font color="#ffffff">Foot </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Greaves / Boots / Shoes
 	//1*2
@@ -705,16 +544,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Dark Light Shoes </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89662
-		 || 	event.item === 89666
-		 || 	event.item === 89670
-		 || 	event.item === 89674
-		 || 	event.item === 89682
-		 )
-		 
-		sendMessage(header+'(<font color="#00ff00">Foot </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Greaves / Boots / Shoes
 	//1*3
@@ -739,16 +568,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#0391c4">Dark Light Shoes </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89663
-		 || 	event.item === 89667
-		 || 	event.item === 89671
-		 || 	event.item === 89675
-		 || 	event.item === 89683
-		 )
-		 
-		sendMessage(header+'(<font color="#0391c4">Foot </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Greaves / Boots / Shoes
 	//1*4
@@ -773,16 +592,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Dark Light Shoes </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 89664
-		 || 	event.item === 89668
-		 || 	event.item === 89672
-		 || 	event.item === 89676
-		 || 	event.item === 89684
-		 )
-		 
-		sendMessage(header+'(<font color="#fff317">Foot </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
-	*/
 	
 	// Armor Gold lvl 69 Greaves / Boots / Shoes
 	//1*5
@@ -826,13 +635,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#ffffff">Kaia Wisdom Belt </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
 	}
-	/*
-	else if (	event.item === 88875
-		 ||  	event.item === 88879 
-		 )
-	
-		sendMessage(header+'(<font color="#ffffff">Brooch </font>'+'<font color="#ff0000">0</font>'+'<font color="#ffffff"> Effect</font>)', cchat)
-	*/
 	
 	//1*2
 	
@@ -868,13 +670,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Kaia Wisdom Belt </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 88876
-		 || 	event.item === 88880
-		 )
-		 
-		sendMessage(header+'(<font color="#00ff00">Brooch </font>'+'<font color="#ff0000">1</font>'+'<font color="#00ff00"> Effect</font>)', cchat)
-	*/
 	
 	//1*3
 	
@@ -910,13 +705,6 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#0391c4">Kaia Wisdom Belt </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 88877
-		 || 	event.item === 88881
-		 )
-		 
-		sendMessage(header+'(<font color="#0391c4">Brooch </font>'+'<font color="#ff0000">2</font>'+'<font color="#0391c4"> Effect</font>)', cchat)
-	*/
 	
 	//1*4
 	
@@ -952,14 +740,9 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Kaia Wisdom Belt </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
 	}
-	/*
-	else if(	event.item === 88878
-		 || 	event.item === 88882
-		 )
-		 
-		sendMessage(header+'(<font color="#fff317">Brooch </font>'+'<font color="#ff0000">3</font>'+'<font color="#fff317"> Effect</font>)', cchat)
 	*/
 	
+	/*
 	// Box Brooch
 	else if(	event.item === 209118	)
 	{
@@ -978,12 +761,15 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Belt Box</font>)', cchat)
 		notice('(Belt Box)')
 	}
+	*/
+	
 	// Box Zenobia
 	else if(	event.item === 206960	)
 	{
 		sendMessage(header+'(<font color="#c63db6">Zenobia Box</font>)', cchat)
 		notice('(Zenobia Box)')
 	}
+	
 	/*
 	// Kaia Gear Box [Weapon]
 	else if(	event.item === 208040	)
@@ -1017,6 +803,7 @@ let header = 'Drop -> ';
 		notice('Kaia Gear Box')
 	}
 	*/
+	
 	// Kaia Soul Gear Box [Weapon]
 	else if(	event.item === 208085	)
 	{
@@ -1069,6 +856,7 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Exodor Superior Foot Armor Box</font>)', cchat)
 	}
 	*/
+	
 	// Map
 	else if(	event.item === 206858
 		 || 	event.item === 206859
@@ -1085,6 +873,8 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Get Map SoH</font>)', cchat)
 		notice('(Get Map SoH)')
 	}
+	
+	/*
 	// Hidden Wooden Crate
 	else if(	event.item === 206865	)
 	{
@@ -1103,6 +893,8 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Hidden Gold Crate</font>)', cchat)
 		notice('(Hidden Gold Crate)')
 	}
+	*/
+	
 	// Half Map
 	else if(	event.item === 206855
 		 || 	event.item === 206869
@@ -1125,6 +917,7 @@ let header = 'Drop -> ';
 	}
 	*/
 	
+	/*
 	// Azart Force Sign
 	else if(	event.item === 209123	)
 	{
@@ -1143,6 +936,8 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#00ff00">Azart Expedition Badge</font>)', cchat)
 		notice('(Azart Expedition Badge)')
 	}
+	*/
+	
 	/*
 	// Card White
 	else if(	event.item === 300000 || event.item === 300001 || event.item === 300002 || event.item === 300003 
@@ -1217,6 +1012,8 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#00ff00">Unique Seashell I</font>)', cchat)
 		notice('(Unique Seashell I)')
 	}
+	
+	/*
 	// Avarice Transformation Vellum Token
 	else if(	event.item === 156409	)
 	{
@@ -1241,6 +1038,7 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Upgrade Vellum Token</font>)', cchat)
 		notice('(Upgrade Vellum Token)')
 	}
+	*/
 	
 	//Unstable Option Change Scroll(Green)
 	//[Weapon]
@@ -1301,6 +1099,7 @@ let header = 'Drop -> ';
 	}
 	*/
 	
+	/*
 	//Option Change Scroll(Blue)
 	//[Weapon]
 	else if(	event.item === 204503	)
@@ -1415,6 +1214,8 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Brooch]</font>)', cchat)
 		notice('(Greedhead Option Change Scroll [Brooch])')
 	}
+	*/
+	
 	//[Ring]
 	else if(	event.item === 204523	)
 	{
@@ -1558,6 +1359,7 @@ let header = 'Drop -> ';
 		notice('(Soul Greedhead Option Change Scroll [Belt])')
 	}
 	
+	/*
 	//Azart Force Loot Chest
 	else if(	event.item === 98996	)
 	{
@@ -1578,6 +1380,7 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#00ff00">Thulsan Forces War Trophy </font>'+'<font color="#00ff00">Chest</font>)', cchat)
 	}
+	*/
 	
 	//Kaia's Soul Cryolite
 	else if(	event.item === 98998	)
@@ -1585,15 +1388,18 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Kaia Soul </font>'+'<font color="#fff317">Cryolite</font>)', cchat)
 		notice('(Kaia Soul Cryolite)')
 	}
+	/*
 	//Kaia's Soul Token
 	else if(	event.item === 207751	)
 	{
 		sendMessage(header+'(<font color="#fff317">Kaia Soul </font>'+'<font color="#fff317">Token</font>)', cchat)
 		notice('(Kaia Soul Token)')
 	}
+	*/
 	
 	//Brooch Etching
 	// I
+	/*
 	else if(	event.item === 6958 	)
 	{
 		sendMessage(header+'(<font color="#ffffff">Brooch Etching </font>'+'<font color="#ffffff">Pumped I</font>)', cchat)
@@ -1687,6 +1493,7 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Brooch Etching </font>'+'<font color="#fff317">Relentless Swift IV [RIP]</font>)', cchat)
 		notice('Brooch Etching Relentless Swift IV [RIP])')
 	}
+	*/
 	
 	// Partner : RK-9 (Rare)
 	else if(	event.item === 207361 	)
@@ -1808,6 +1615,7 @@ let header = 'Drop -> ';
 	}
 	
 	//Essence
+	/*
 	else if(	event.item === 89913	)
 	{
 		sendMessage(header+'(<font color="#fff317">Solar </font>'+'<font color="#fff317">Essence</font>)', cchat)
@@ -1828,6 +1636,7 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Lighting </font>'+'<font color="#fff317">Essence</font>)', cchat)
 	}
+	*/
 	
 	//Stone
 	else if(	event.item === 89965	)
