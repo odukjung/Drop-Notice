@@ -6,11 +6,11 @@ Notice marker when item drop.
 # Update
 - Add Item list
 
-1. Soul Option Change Scroll Green -> Gold (Foot, Hand)
-2. Kaia's Soul Token
-3. Kaia's Soul Cryolite
-4. Thulsan Forces Loot Chest
-5. Thulsan Forces War Trophy Chest
+1. Nightmare Undying Warlord Body Armor Chest
+2. Eternal Brawler Powerfists
+3. Gardan Cloak
+4. Gardan Armor Chest
+5. Gardan Axe
 
 
 # Commands 
@@ -20,11 +20,11 @@ Notice marker when item drop.
 
 | Item Marker |
 | ------------------------ |
-| 1 - All Superior Exodor Gear Option 0-3 |
-| 2 - All Trash Superior Exodor Gear Option 0-3 |
-| 3 - Annihilation Brooch Option 0-3 |
-| 4 - Dark Light Brooch Option 0-3 |
-| 5 - Box Brooch (Notice - Center) |
+| 1 - Nightmare Undying Warlord Body Armor Chest |
+| 2 - Eternal Brawler Powerfists |
+| 3 - Gardan Cloak |
+| 4 - Gardan Armor Chest |
+| 5 - Gardan Axe |
 | 6 - Box Mask (Notice - Center) |
 | 7 - Box Belt (Notice - Center) |
 | 8 - Box Zenobia (Notice - Center) |
