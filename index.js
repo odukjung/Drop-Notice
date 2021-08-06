@@ -770,6 +770,238 @@ let header = 'Drop -> ';
 		notice('(Zenobia Box)')
 	}
 	
+	// Mahtnan Weapon Crate (Mythical)
+	else if(	event.item === 4926	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Weapon Crate (Mythical)</font>)', cchat)
+		notice('(Mahtnan Weapon Crate (Mythical))')
+	}
+	// Mahtnan Armor Crate (Mythical)
+	else if(	event.item === 4929	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Armor Crate (Mythical)</font>)', cchat)
+		notice('(Mahtnan Armor Crate (Mythical))')
+	}
+	// Mahtnan Hand Armor Crate (Mythical)
+	else if(	event.item === 4932	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Hand Armor Crate (Mythical)</font>)', cchat)
+		notice('(Mahtnan Hand Armor Crate (Mythical))')
+	}
+	// Mahtnan Footwear Crate (Mythical)
+	else if(	event.item === 4935	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Footwear Crate (Mythical)</font>)', cchat)
+		notice('(Mahtnan Footwear Crate (Mythical))')
+	}
+	
+	// Mahtnan Gear Design Box (Mythical)
+	else if(	event.item === 4936	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Gear Design Box (Mythical)</font>)', cchat)
+		notice('(Mahtnan Gear Design Box (Mythical))')
+	}
+	// Mahtnan Weapon Design Box (Mythical)
+	else if(	event.item === 4937	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Weapon Design Box (Mythical)</font>)', cchat)
+		notice('(Mahtnan Weapon Design Box (Mythical))')
+	}
+	// Mahtnan Armor Design Box (Mythical)
+	else if(	event.item === 4938	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Armor Design Box (Mythical)</font>)', cchat)
+		notice('(Mahtnan Armor Design Box (Mythical))')
+	}
+	// Mahtnan Hand Armor Design Box (Mythical)
+	else if(	event.item === 4939	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Hand Armor Design Box (Mythical)</font>)', cchat)
+		notice('(Mahtnan Hand Armor Design Box (Mythical))')
+	}
+	// Mahtnan Foot Armor Design Box (Mythical)
+	else if(	event.item === 4940	)
+	{
+		sendMessage(header+'(<font color="#c63db6">Mahtnan Foot Armor Design Box (Mythical)</font>)', cchat)
+		notice('(Mahtnan Foot Armor Design Box (Mythical))')
+	}
+	
+	//Design Weapon
+	// Design: Dauntless Mahtnan Twin Swords (Mythical)
+	else if(	event.item === 4813		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Twin Swords</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Twin Swords)')
+	}
+	// Design: Dauntless Mahtnan Lance (Mythical)
+	else if(	event.item === 4816		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Lance</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Lance)')
+	}
+	// Design: Dauntless Mahtnan Greatsword (Mythical)
+	else if(	event.item === 4819		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Greatsword</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Greatsword)')
+	}
+	// Design: Dauntless Mahtnan Axe (Mythical)
+	else if(	event.item === 4822		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Axe</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Axe)')
+	}
+	// Design: Occult Mahtnan Disc (Mythical)
+	else if(	event.item === 4825		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Disc</font>)', cchat)
+		notice('(Design: Occult Mahtnan Disc)')
+	}
+	// Design: Dauntless Mahtnan Bow (Mythical)
+	else if(	event.item === 4828		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Bow</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Bow)')
+	}
+	// Design: Occult Mahtnan Staff (Mythical)
+	else if(	event.item === 4831		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Staff</font>)', cchat)
+		notice('(Design: Occult Mahtnan Staff)')
+	}
+	// Design: Occult Mahtnan Scepter (Mythical)
+	else if(	event.item === 4834		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Scepter</font>)', cchat)
+		notice('(Design: Occult Mahtnan Scepter)')
+	}
+	// Design: Occult Mahtnan Scythe (Mythical)
+	else if(	event.item === 4837		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Scythe</font>)', cchat)
+		notice('(Design: Occult Mahtnan Scythe)')
+	}
+	// Design: Occult Mahtnan Arcannon (Mythical)
+	else if(	event.item === 4840		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Arcannon</font>)', cchat)
+		notice('(Design: Occult Mahtnan Arcannon)')
+	}
+	// Design: Dauntless Mahtnan Powerfists (Mythical)
+	else if(	event.item === 4843		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Powerfists</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Powerfists)')
+	}
+	// Design: Occult Mahtnan Shuriken (Mythical)
+	else if(	event.item === 4846		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Shuriken</font>)', cchat)
+		notice('(Design: Occult Mahtnan Shuriken)')
+	}
+		// Design: Dauntless Mahtnan Runeglaive (Mythical)
+	else if(	event.item === 4849		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Runeglaive</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Runeglaive)')
+	}
+	
+	//Design Armor
+	// Design: Dauntless Mahtnan Hauberk (Mythical)
+	else if(	event.item === 4852		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Hauberk</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Hauberk)')
+	}
+	// Design: Occult Mahtnan Hauberk (Mythical)
+	else if(	event.item === 4855		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Hauberk</font>)', cchat)
+		notice('(Design: Occult Mahtnan Hauberk)')
+	}
+	// Design: Dauntless Mahtnan Cuirass (Mythical)
+	else if(	event.item === 4858		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Cuirass</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Cuirass)')
+	}
+	// Design: Occult Mahtnan Cuirass (Mythical)
+	else if(	event.item === 4861		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Cuirass</font>)', cchat)
+		notice('(Design: Occult Mahtnan Cuirass)')
+	}
+	// Design: Occult Mahtnan Robe (Mythical)
+	else if(	event.item === 4864		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Robe</font>)', cchat)
+		notice('(Design: Occult Mahtnan Robe)')
+	}
+	
+	//Design Hand
+	// Design: Dauntless Mahtnan Gauntlets (Mythical)
+	else if(	event.item === 4867		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Gauntlets</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Gauntlets)')
+	}
+	// Design: Occult Mahtnan Gauntlets (Mythical)
+	else if(	event.item === 4870		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Gauntlets</font>)', cchat)
+		notice('(Design: Occult Mahtnan Gauntlets)')
+	}
+	// Design: Dauntless Mahtnan Hand Armor (Mythical)
+	else if(	event.item === 4873		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Hand Armor</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Hand Armor)')
+	}
+	// Design: Occult Mahtnan Hand Armor (Mythical)
+	else if(	event.item === 4876		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Hand Armor</font>)', cchat)
+		notice('(Design: Occult Mahtnan Hand Armor)')
+	}
+	// Design: Occult Mahtnan Hand Armor (Mythical)
+	else if(	event.item === 4879		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Hand Armor</font>)', cchat)
+		notice('(Design: Occult Mahtnan Hand Armor)')
+	}
+	
+	//Design Foot
+	// Design: Dauntless Mahtnan Greaves (Mythical)
+	else if(	event.item === 4882		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Greaves</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Greaves)')
+	}
+	// Design: Occult Mahtnan Greaves (Mythical)
+	else if(	event.item === 4885		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Greaves</font>)', cchat)
+		notice('(Design: Occult Mahtnan Greaves)')
+	}
+	// Design: Dauntless Mahtnan Leather Boots (Mythical)
+	else if(	event.item === 4888		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Leather Boots</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Leather Boots)')
+	}
+	// Design: Occult Mahtnan Leather Boots (Mythical)
+	else if(	event.item === 4891		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Occult Mahtnan Leather Boots</font>)', cchat)
+		notice('(Design: Occult Mahtnan Leather Boots)')
+	}
+	// Design: Dauntless Mahtnan Twin Swords (Mythical)
+	else if(	event.item === 4894		)
+	{
+		sendMessage(header+'(<font color="#c63db6">Design: Dauntless Mahtnan Twin Swords</font>)', cchat)
+		notice('(Design: Dauntless Mahtnan Twin Swords)')
+	}
+	
 	/*
 	// Kaia Gear Box [Weapon]
 	else if(	event.item === 208040	)
@@ -804,6 +1036,7 @@ let header = 'Drop -> ';
 	}
 	*/
 	
+	/*
 	// Kaia Soul Gear Box [Weapon]
 	else if(	event.item === 208085	)
 	{
@@ -834,6 +1067,8 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#c63db6">Kaia Soul Gear Box</font>)', cchat)
 		notice('Kaia Soul Gear Box')
 	}
+	*/
+	
 	/*
 	// Exodor Superior Weapon Box
 	else if(	event.item === 206950	)
@@ -1241,6 +1476,7 @@ let header = 'Drop -> ';
 		notice('(Greedhead Option Change Scroll [Circlet])')
 	}
 	
+	/*
 	//Unstable Soul Option Change Scroll(Green)
 	//[Weapon]
 	else if(	event.item === 204541	)
@@ -1314,7 +1550,9 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#0391c4">Soul Option Change Scroll </font>'+'<font color="#0391c4">[Belt]</font>)', cchat)
 	}
+	*/
 	
+	/*
 	//Soul Greedhead Option Change Scroll (Gold)
 	//[Weapon]
 	else if(	event.item === 204533	)
@@ -1340,6 +1578,9 @@ let header = 'Drop -> ';
 		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Foot Armor]</font>)', cchat)
 		notice('(Soul Greedhead Option Change Scroll [Foot Armor])')
 	}
+	*/
+	
+	//Soul Greedhead Option Change Scroll (Gold)
 	//[Mask]
 	else if(	event.item === 209406	)
 	{
@@ -1357,6 +1598,58 @@ let header = 'Drop -> ';
 	{
 		sendMessage(header+'(<font color="#fff317">Soul Greedhead Option Change Scroll </font>'+'<font color="#fff317">[Belt]</font>)', cchat)
 		notice('(Soul Greedhead Option Change Scroll [Belt])')
+	}
+	
+	//Greedy Mahtnan Option Change Scroll (Gold)
+	//[Weapon]
+	else if(	event.item === 4915	)
+	{
+		sendMessage(header+'(<font color="#fff317">Greedy Mahtnan Option Change Scroll </font>'+'<font color="#fff317">[Weapon]</font>)', cchat)
+		notice('(Greedy Mahtnan Option Change Scroll [Weapon])')
+	}
+	//[Armor]
+	else if(	event.item === 4916	)
+	{
+		sendMessage(header+'(<font color="#fff317">Greedy Mahtnan Option Change Scroll </font>'+'<font color="#fff317">[Armor]</font>)', cchat)
+		notice('(Greedy Mahtnan Option Change Scroll [Armor])')
+	}
+	//[Hand Armor]
+	else if(	event.item === 4917	)
+	{
+		sendMessage(header+'(<font color="#fff317">Greedy Mahtnan Option Change Scroll </font>'+'<font color="#fff317">[Hand Armor]</font>)', cchat)
+		notice('(Greedy Mahtnan Option Change Scroll [Hand Armor])')
+	}
+	//[Foot Armor]
+	else if(	event.item === 4918	)
+	{
+		sendMessage(header+'(<font color="#fff317">Greedy Mahtnan Option Change Scroll </font>'+'<font color="#fff317">[Foot Armor]</font>)', cchat)
+		notice('(Greedy Mahtnan Option Change Scroll [Foot Armor])')
+	}
+	
+	//Mahtnan Option Boost Scroll (Gold)
+	//[Weapon]
+	else if(	event.item === 4899	)
+	{
+		sendMessage(header+'(<font color="#fff317">Mahtnan Option Boost Scroll </font>'+'<font color="#fff317">[Weapon]</font>)', cchat)
+		notice('(Mahtnan Option Boost Scroll [Weapon])')
+	}
+	//[Armor]
+	else if(	event.item === 4900	)
+	{
+		sendMessage(header+'(<font color="#fff317">Mahtnan Option Boost Scroll </font>'+'<font color="#fff317">[Armor]</font>)', cchat)
+		notice('(Mahtnan Option Boost Scroll [Armor])')
+	}
+	//[Hand Armor]
+	else if(	event.item === 4901	)
+	{
+		sendMessage(header+'(<font color="#fff317">Mahtnan Option Boost Scroll </font>'+'<font color="#fff317">[Hand Armor]</font>)', cchat)
+		notice('(Mahtnan Option Boost Scroll [Hand Armor])')
+	}
+	//[Foot Armor]
+	else if(	event.item === 4902	)
+	{
+		sendMessage(header+'(<font color="#fff317">Mahtnan Option Boost Scroll </font>'+'<font color="#fff317">[Foot Armor]</font>)', cchat)
+		notice('(Mahtnan Option Boost Scroll [Foot Armor])')
 	}
 	
 	/*
@@ -1382,12 +1675,22 @@ let header = 'Drop -> ';
 	}
 	*/
 	
+	/*
 	//Kaia's Soul Cryolite
 	else if(	event.item === 98998	)
 	{
 		sendMessage(header+'(<font color="#fff317">Kaia Soul </font>'+'<font color="#fff317">Cryolite</font>)', cchat)
 		notice('(Kaia Soul Cryolite)')
 	}
+	*/
+	
+	//Mahtnan Jewel
+	else if(	event.item === 4919	)
+	{
+		sendMessage(header+'(<font color="#fff317">Mahtnan </font>'+'<font color="#fff317">Jewel</font>)', cchat)
+		notice('(Mahtnan Jewel)')
+	}
+	
 	/*
 	//Kaia's Soul Token
 	else if(	event.item === 207751	)
@@ -1713,7 +2016,7 @@ let header = 'Drop -> ';
 	function sendMessage(msg, chl) {
 		if (!ptenabled)
 		{
-			d.send('S_CHAT', 3 , {
+			d.send('S_CHAT', 4 , {
 			channel: chl ? chl : 7,
 			name: ' ',
 			message: msg
