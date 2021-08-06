@@ -3,14 +3,16 @@ Notice marker when item drop.
 - Notice to self => Whisper channle
 - Notice to Party => Notice channle
 
+# fix
+- Chat_3 > Chat_4
+
 # Update
 - Add Item list
 
-1. Nightmare Undying Warlord Body Armor Chest
-2. Eternal Brawler Powerfists
-3. Gardan Cloak
-4. Gardan Armor Chest
-5. Gardan Axe
+1. New Gear Box & Design (Mythical)
+2. New Option Boost Scroll
+3. New Option Change Scroll (Gold)
+4. Mahtnan Jewel
 
 
 # Commands 
