@@ -3,6 +3,8 @@ Notice marker when item drop.
 - Notice to self => Whisper channle
 - Notice to Party => Notice channle
 
+** MOD isn't Auto-Update plz manual update 
+
 # fix
 - Chat_3 > Chat_4
 
